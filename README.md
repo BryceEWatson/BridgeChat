@@ -8,3 +8,15 @@ The Client is responsible for providing a simple chat interface to the user, whi
 The Custom Server is implemented in Java, and is packaged as a runnable JAR file which can be easily deployed to any linux-based server. This application acts as a Websocket server for the client program, listening for incoming connections on the specified port. A simple presence mechanism notifies all existing users of the joining or leaving of any other users. In addition to this it also provides messaging between users, allowing them to exchange WebRTC session details before establishing connections between each other separately. All messages sent from the server are in pure JSON, as this is the easiest for a Javascript client to understand.
 
 The Proxy Server arose from the need to connect the client application with the many existing legacy XMPP servers which do not support Websocket connections. The Proxy Server acts as a simple intermediary between the Client and the desired XMPP server. Client facing Websocket connections are paired with Java Socket connections to the specified IP and Port of the XMPP server. The proxy is paired with a modified Websocket on the client that accepts stream data directly from the socket connection in a way similar to regular Websocket messages.
+
+Installation
+==========
+
+Installation steps are described in the BridgeChat-Installation_Manual.pdf.
+
+Future Goals & Intent
+==========
+
+The main goal of this project is to provide the WebRTC developer community with a functional multi-user video chat program which could be improved and expanded upon as the specifications evolve.
+
+This application will be continously improved to better server the needs of Website developers and designers when there is a need for live audio/video conferencing. This application can be easily embedded within an existing website and, with future improvements, will provide a useful RTC features.  
