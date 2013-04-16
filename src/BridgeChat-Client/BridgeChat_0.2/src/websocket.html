@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="./js/adapter.js"></script>
+	<script src="./js/Base64.js"></script>
+	<script src="./js/util.js"></script>
+        <script src="./js/websock.js"></script>
+        <script src="./js/webutil.js"></script>
+		<script src="./js/ChatSession.js" type="text/javascript"></script>
+		<script src="./js/websocket.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css" media="screen" />
+		<style>
+		#bodyHolder {width:600px;height:600px; }
+		#bodyHolder #header {float:left; }
+		#roomTabs {width 100%;float:left;}
+		#connection {float:left;height:50px; }
+		#chatRoomHolder {width:100%;float:left}
+		#chatHolder {float:left}
+		#chatHistory {width:350px; height:450px;overflow-y:auto;border-style:groove;}
+		#chatHistory {}
+		#chatHistory .msgLine {width:100%;}
+		#chatInput input {width:300px;}
+		#chatInput button {width:50px;}
+		#userList {float:left;width:150px;height:450px;overflow-y:auto;border-style:groove;margin:5px;margin-top:0px;}
+		</style>
+</head>
+<body>
+<div id="bodyHolder">
+	<div id="header">
+		<div id="connection">
+			JID:<input id="jidBox"></input><span id="domainLbl"></span></br>
+			Password:<input id="pwBox" value="p4bridgetest"></input>
+			Nick:<input id="userNameBox"></input>
+		</div>
+		<div id="loginHolder"><button id="loginBtn" onclick="loginClicked();">Login</button></div>
+	</div>
+	<div id="messages"></div>
+	<div id="chatRoomHolder">
+		<div id="chatHolder">
+			<div id="chatHistory"></div>
+			<div id="chatInput"><input id="chatInputTxt"></input><button id="msgBtn" onclick="msgSendClicked();">Send</button></div>
+		</div>
+		<div id="userList"></div>
+	</div>
+
+	<div id="mainChatBox">
+		<video id="mainView-1" width="500px" height="400px" autoplay="autoplay"/>
+		<div id="bottomBar">
+		
+		</div>
+	</div>
+	
+
+</div>
+</body>
+</html>

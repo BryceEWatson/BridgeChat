@@ -1,0 +1,25 @@
+#bridgechat-container {float:left;background-color:#CCCCFF}
+#bridgechat-container #initial-holder {width:180px;height:250px;}
+#bridgechat-container #init-btn-holder {width:125px;height:30px;margin-left:auto;margin-right:auto;padding-top:30%;}
+#login-holder {float:left;padding:5px;}
+#login-holder .disconnected {width:500px;height:300px;}
+#login-holder .connected { width: 375px;height:25px }
+#user-name {float:left;width:100%;height:50px;}
+#user-name #domain {float:left}
+#user-name input {float:left}
+.label {float: left}
+.input {float: left}
+#password {float:left;width:100%;height:50px;}
+#chat-nick {float:left;width:100%;height:30px;}
+.submit {float:left;width:100%;}
+.session-holder {float:left;}
+.title {float:left;width:100%;height:50px;}
+.history-window {float:left;width:350px;height:450px;overflow-y:auto;border-style:groove;}
+.history-window .line {width:100%;float:left;border-style:groove;}
+#users-container {float:left;width:150px;padding-right:10px;}
+#users-container .user-list {float:left;width:150px;border-style:groove;}
+#users-container .chat-users {float:left;width:150px;border-style:groove;}
+#video-session {float:left;position:relative;}
+.oneOther (float:left;position:relative;top:0;left:0;width:500px;}
+.twoOthers (float:left;position:relative;width:400px;}
+.threeOthers (float:left;width:300px;}
