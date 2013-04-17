@@ -1,3 +1,7 @@
+New Demo Page
+==========
+Check out the new demo page over at www.bridgechat.net !
+
 BridgeChat
 ==========
 
