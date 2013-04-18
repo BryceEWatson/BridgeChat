@@ -4,8 +4,8 @@
 				 both the UI and the Data layer.
 */
 // Configuration Variables
-var proto = "XMPP"; // 'custom' or 'XMPP' currently supported
-var domain = "66.147.235.214"
+var proto = "custom"; // 'custom' or 'XMPP' currently supported
+var domain = "192.168.0.103";
 var port = "8888";
 var webDomain = "bridgetestchat6";
 var chatRoomDomain = "jabber.org";
